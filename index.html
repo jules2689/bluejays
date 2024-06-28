@@ -11,7 +11,7 @@
         <!-- Google fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Mate:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- jQuery -->
@@ -21,32 +21,39 @@
         <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
     </head>
     <body id="page-top">
-        <!-- Header-->
-        <header class="masthead d-flex">
-            <div class="container px-4 px-lg-5">
-                <h1 class="mb-1">36 Blue Jays Way Unit 610</h1>
-                <h3 class="mb-5">Hand crafted urban living</h3>
-            </div>
-        </header>
 
-        <!-- TLDR-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h3><strong>$570,000</strong></h3>
+        <header class="bg-primary d-flex flex-column-reverse flex-md-row">
+            <div class="col-md-6 text">
+                <div>
+                    <h1 class="mb-1">36 Blue Jays Way Unit 610</h1>
+                    <h3 class="mb-5">Hand crafted urban living</h3>
+                    <div class="row mb-lg-5">
+                        <div class="col-xl-6 mb-md-5 mb-lg-0">
+                            <strong>$570,000</strong>
+                        </div>
+                        <div class="col-xl-6 mb-md-5 mb-lg-0">
+                            <strong>1 Bed</strong>,&nbsp; 
+                            <strong>1 Bath</strong>
+                        </div>
                     </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h3><strong>1 Bedroom</strong></h3>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-md-0">
-                        <h3><strong>1 Bathroom</strong></h3>
+                    <div class="mt-5 mt-md-0">
+                        <a style="width: 300px" class="btn btn-lg btn-light me-4 mb-2 btn-text-sm" href="tel:905-731-2266"><h5>Contact JDL Realty</h5><b>Daniel Liang</b></br>905-731-2266</a>
+                        <a style="width: 300px" class="btn btn-lg btn-light me-4 mb-2 btn-text-sm" href="https://www.realtor.ca/real-estate/26999506/610-36-blue-jays-way-toronto-waterfront-communities-c1"><h5>Realtor.ca</h5></br>MLS® Number: C8409134</a>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="col-md-6 header-img">
+                &nbsp;<br/>&nbsp;
+            </div>
+        </header>
 
         <section class="content-section" id="portfolio">
+
+            <div class="text-center flex mb-5">
+                <a class="btn btn-link" href="#gallery">View Gallery</a>
+                <a class="btn btn-link" href="#3dmap">View 3D Map</a>
+                <a class="btn btn-link" href="#map">View Map</a>
+            </div>
         
             <div class="container" style="font-size: 1.2rem">
             <p>Welcome to your dream condo in the heart of downtown Toronto! This spacious, bright residence features a new custom-designed kitchen with stunning stone countertops, pristine brand new floors, and a custom closet organizer in a generous 10-foot closet. Freshly painted in 2024, every detail of this home has been thoughtfully crafted for comfortable living.</p>
@@ -58,7 +65,9 @@
             <p>Move-in ready, this exceptional condo in the prestigious SoHo condominiums offers the perfect blend of luxury and convenience. Don’t miss the opportunity to make this vibrant and stylish urban oasis your new home!</p>
             
             <!-- Gallery -->
-            <div id="nanogallery2" data-nanogallery2='{"thumbnailWidth":   "auto", "thumbnailHeight":  400, "viewerTools":     {
+            <br/>
+            <h2 style="margin-top: 100px" id="gallery">Gallery</h2>
+            <div  data-nanogallery2='{"thumbnailWidth":   "auto", "thumbnailHeight":  400, "viewerTools":     {
                 "topLeft":    "pageCounter",
                 "topRight":   "playPauseButton, zoomButton, fullscreenButton, closeButton"
               }   }'>
@@ -69,6 +78,10 @@
                 <a href="./assets/img/IMG_2181.png" data-ngThumb="./assets/img/IMG_2181.png"></a>
                 <a href="./assets/img/IMG_2185.png" data-ngThumb="./assets/img/IMG_2185.png"></a>
             </div>
+
+            <br/>
+            <h2 style="margin-top: 100px" id="3dmap">3D Map</h2>
+            <p>Coming soon</p>
         </div>
 
         </section>
@@ -83,7 +96,7 @@
         </section>
 
         <!-- Map-->
-        <div class="map" id="contact">
+        <div class="map" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.15529954827!2d-79.39461912321781!3d43.64493717110268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d9fa500fa1%3A0x1274109c47a48d6d!2s36%20Blue%20Jays%20Way%2C%20Toronto%2C%20ON%20M5V%203T3!5e0!3m2!1sen!2sca!4v1719432429418!5m2!1sen!2sca"></iframe>
         </div>
 
@@ -93,6 +106,7 @@
                 <p class="text-muted small mb-0">Copyright &copy; 2024</p>
             </div>
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>

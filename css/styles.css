@@ -11012,8 +11012,8 @@ header .header-img {
   min-height: 300px;
   flex: 1;
   line-height: 400px;
-  background-position: top;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 100%), url("../assets/img/full/header.jpg");
+  background-position: center !important;
+  background: url("../assets/img/full/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(29, 106, 130); /* Change the color and opacity as needed */

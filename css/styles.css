@@ -11004,6 +11004,11 @@ html {
   font-family: Montserrat, sans-serif;
 }
 
+body {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
 header {
   height: 90vh;
 }

@@ -10985,9 +10985,18 @@ footer.footer .social-link:hover {
   width: 100%;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 @media (max-width: 992px) {
-  .map {
-    height: 75%;
+  .margin-lg-100 {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .margin-lg-100 {
+    margin-top: 100px;
   }
 }
 
@@ -11000,7 +11009,7 @@ header {
 }
 
 header .header-img {
-  min-height: 500px;
+  min-height: 300px;
   flex: 1;
   line-height: 400px;
   background-position: top;

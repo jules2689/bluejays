@@ -10792,6 +10792,9 @@ textarea.form-control-lg {
   .fs-4 {
     font-size: 1.5rem !important;
   }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
 }
 @media print {
   .d-print-inline {
@@ -10829,6 +10832,12 @@ body,
 html {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 992px) {
+  .content-section {
+    padding-top: 0.5rem !important;
+  }
 }
 
 .content-section {

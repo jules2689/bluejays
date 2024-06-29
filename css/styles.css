@@ -6649,11 +6649,6 @@ textarea.form-control-lg {
             mask-position: -200% 0%;
   }
 }
-.clearfix::after {
-  display: block;
-  clear: both;
-  content: "";
-}
 
 .text-bg-primary {
   color: #fff !important;
@@ -10856,10 +10851,6 @@ footer.footer {
 .map iframe {
   height: 100%;
   width: 100%;
-}
-
-.clearfix {
-  overflow: auto;
 }
 
 @media (max-width: 992px) {

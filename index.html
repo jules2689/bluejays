@@ -29,7 +29,17 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link href="css/styles.css" rel="stylesheet" />
     <!-- jQuery -->
     <script
@@ -48,52 +58,98 @@
     ></script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16629124693">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-16629124693"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'AW-16629124693');
+      gtag("config", "AW-16629124693");
     </script>
   </head>
   <body id="page-top">
-    <header class="bg-primary d-flex flex-column-reverse flex-md-row">
-      <div class="col-md-6 text flex-2 mt-5 mt-md-0">
-        <div>
-          <h1 class="mb-1">36 Blue Jays Way Unit 610</h1>
-          <h3 class="mb-5">Hand crafted urban living</h3>
-          <div class="row mb-lg-5">
-            <div class="col-xl-6 mb-md-5 mb-lg-0">
-              <strong>$570,000</strong>
-            </div>
-            <div class="col-xl-6 mb-md-5 mb-lg-0">
-              <strong>1 Bed</strong>,&nbsp;
-              <strong>1 Bath</strong>
-            </div>
-          </div>
-          <div class="mt-5 mt-md-0">
-            <a
-              style="width: 300px"
-              class="btn btn-sm btn-light me-4 mb-2 btn-text-sm"
-              href="tel:905-731-2266"
-              ><h6>Contact JDL Realty</h6>
-              <b>Daniel Liang</b><br />905-731-2266</a
-            >
-            <a
-              style="width: 300px"
-              class="btn btn-sm btn-light me-4 mb-2 btn-text-sm"
-              href="https://www.realtor.ca/real-estate/26999506/610-36-blue-jays-way-toronto-waterfront-communities-c1?ref=36bluejays"
-              ><h6>Realtor.ca</h6>
-              <span class="d-none d-md-inline"><br /></span>MLS® Number:
-              C8409134</a
-            >
-          </div>
+    <header class="d-block d-lg-none mb-5">
+      <div class="mobile-header">&nbsp;</div>
+
+      <div class="px-3">
+        <h3 class="mb-1 text-accented text-font-bradley text-size-24">
+          Hand crafted urban living
+        </h3>
+        <h1 class="mb-1 text-font-nyc text-size-64">
+          36 Blue Jays Way Unit 610
+        </h1>
+        <div class="text-font-inter text-size-32 text-muted">
+          <strong>$570,000</strong> • <span>1 Bed 1 Bath</span>
         </div>
+        <hr style="width: 100px" />
+        <a
+          class="btn btn-xl btn-outline-primary text-font-inter mt-2 w-100"
+          href="tel:905-731-2266"
+          ><h4>Contact JDL Realty</h4>
+          <b>Daniel Liang</b><br />905-731-2266</a
+        >
+        <a
+          class="btn btn-xl btn-outline-primary text-font-inter mt-2 w-100"
+          href="https://www.realtor.ca/real-estate/26999506/610-36-blue-jays-way-toronto-waterfront-communities-c1?ref=36bluejays"
+          ><h4>Realtor.ca</h4>
+          <br />MLS® Number: C8409134</a
+        >
       </div>
-      <div class="col-md-6 d-none d-md-block header-img flex-1">
-        &nbsp;<br />&nbsp;
+    </header>
+
+    <header
+      class="d-none d-lg-flex flex-column-reverse flex-md-row container my-5 pt-5"
+    >
+      <div class="col-lg-5" style="align-content: center">
+        <h3 class="mb-1 text-accented text-font-bradley text-size-24">
+          Hand crafted urban living
+        </h3>
+        <h1 class="mb-1 text-font-nyc text-size-64">
+          36 Blue Jays Way Unit 610
+        </h1>
+        <div class="text-font-inter text-size-32 text-muted">
+          <strong>$570,000</strong> • <span>1 Bed 1 Bath</span>
+        </div>
+        <hr style="width: 100px" />
+        <a
+          class="d-block text-size-24 mt-3 text-font-inter text-black text-decoration-none"
+          href="tel:905-731-2266"
+          ><strong>Contact Daniel Liang:</strong> 905-731-2266</a
+        >
+        <a
+          class="d-block text-size-24 mt-3 text-font-inter text-black text-decoration-none"
+          href="https://www.realtor.ca/real-estate/26999506/610-36-blue-jays-way-toronto-waterfront-communities-c1?ref=36bluejays"
+          ><strong>View on Realtor.ca</strong> MLS® Number: C8409134
+        </a>
+      </div>
+      <div class="col-lg-7 row g-2 mx-4" style="align-content: center">
+        <div class="col-md-7">
+          <img
+            src="./assets/img/full/header.jpg"
+            class="img-fluid rounded"
+            style="height: 398px; width: 100%; object-fit: cover"
+            alt="Spacious and bright living room with a view of the CN Tower"
+          />
+        </div>
+        <div class="col-md-5">
+          <img
+            src="./assets/img/thumb/0W6A4759_60_61.jpg"
+            class="img-fluid rounded"
+            style="height: 195px"
+            alt="Gorgeous hand crafted kitchen, designed for the chef and takeout enthusiast alike"
+          />
+          <img
+            src="./assets/img/thumb/0W6A4738_39_40.jpg"
+            class="img-fluid rounded mt-2"
+            style="height: 195px"
+            alt="Generously sized bedroom with a large 10 foot closet with closet organizers"
+          />
+        </div>
       </div>
     </header>
 
@@ -101,9 +157,7 @@
       <div class="text-center flex mb-5">
         <a class="btn btn-outline-primary mt-2" href="#gallery">View Gallery</a>
         <a class="btn btn-outline-primary mt-2" href="#3dmap">View 3D Map</a>
-        <a class="btn btn-outline-primary mt-2" href="#map"
-          >View Map & Nearby Amenities</a
-        >
+        <a class="btn btn-outline-primary mt-2" href="#map">View Map & Nearby Amenities</a>
       </div>
 
       <div class="container" style="font-size: 1.2rem">
@@ -136,8 +190,6 @@
           miss the opportunity to make this vibrant and stylish urban oasis your
           new home!
         </p>
-
-        <div></div>
 
         <!-- Gallery -->
         <br />
@@ -333,6 +385,8 @@
     <div class="row">
       <div class="map col-md-8">
         <iframe
+          class="gmap"
+          style="min-height: 500px;"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.15529954827!2d-79.39461912321781!3d43.64493717110268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d9fa500fa1%3A0x1274109c47a48d6d!2s36%20Blue%20Jays%20Way%2C%20Toronto%2C%20ON%20M5V%203T3!5e0!3m2!1sen!2sca!4v1719432429418!5m2!1sen!2sca"
         ></iframe>
       </div>
@@ -671,17 +725,17 @@
 
     <!-- Call to Action-->
     <br />
-    <section class="content-section bg-primary text-white">
+    <section class="content-section my-5">
       <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mb-4">Learn more about the property</h2>
+        <h2 class="mb-4 text-font-inter">Learn more about the property</h2>
         <a
-          class="btn btn-xl btn-light me-4 mb-2 mb-lg-0"
+          class="btn btn-xl btn-outline-primary text-font-inter mt-2"
           href="tel:905-731-2266"
           ><h4>Contact JDL Realty</h4>
           <b>Daniel Liang</b><br />905-731-2266</a
         >
         <a
-          class="btn btn-xl btn-light me-4 mb-2 mb-lg-0"
+          class="btn btn-xl btn-outline-primary text-font-inter mt-2"
           href="https://www.realtor.ca/real-estate/26999506/610-36-blue-jays-way-toronto-waterfront-communities-c1?ref=36bluejays"
           ><h4>Realtor.ca</h4>
           <br />MLS® Number: C8409134</a
@@ -690,7 +744,7 @@
     </section>
 
     <!-- Footer-->
-    <footer class="footer text-center">
+    <footer class="footer text-center mb-5">
       <div class="container px-4 px-lg-5">
         <p class="text-muted small mb-0">
           Copyright &copy; 2024.<br /><small
@@ -701,6 +755,10 @@
     </footer>
 
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

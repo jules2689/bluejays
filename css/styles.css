@@ -41,8 +41,11 @@ html, body {
     "slnt" 0;
 }
 
-.text-font-bradley {
-  font-family: 'Bradley Hand', cursive
+.text-font-caveat {
+  font-family: "Caveat", 'Bradley Hand', cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text-font-nyc {

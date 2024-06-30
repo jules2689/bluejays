@@ -4,6 +4,17 @@ body {
   scrollbar-gutter: stable;
 }
 
+.btn-outline-secondary {
+  color: #ccc;
+  border-color: #ccc;
+}
+
+.btn-outline-secondary:hover {
+  color: #333 !important;
+  border-color: #ccc;
+  background-color: #ccc;
+}
+
 .mobile-header {
   background-image:  linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%), url("../assets/img/full/header.jpg");
   height: 400px;
